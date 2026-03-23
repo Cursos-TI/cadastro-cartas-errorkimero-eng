@@ -15,16 +15,16 @@ int main() {
   printf(" **** SUPER TRUNFO ****");
   prinff("Digite os dados da 1º carta")
   printf("Digite o número da sua carta: \n");
-  scanf("%s", carta1);
+  scanf("%s", &carta1);
 
   printf("Digite o código da carta: \n");
-  scanf("%s", codigo1);
+  scanf("%s", &codigo1);
 
   printf("Digite o estado: \n");
-  scanf("%s", estado1);
+  scanf("%s", &estado1);
 
   printf("Qual o nome da cidade: \n");
-  scanf("%s", cidade1);
+  scanf("%s", &cidade1);
 
   printf("Qual a população?: \n");
   scanf("%d", &populacao1);
@@ -41,10 +41,36 @@ int main() {
   printf("Digite a renda percapita?: \n");
   scanf("%f", &percapita1);
   
+  prinff("Digite os dados da 2º carta")
+  printf("Digite o número da sua carta: \n");
+  scanf("%s", &carta2);
+
+  printf("Digite o código da carta: \n");
+  scanf("%s", &codigo2);
+
+  printf("Digite o estado: \n");
+  scanf("%s", &estado2);
+
+  printf("Qual o nome da cidade: \n");
+  scanf("%s", &cidade2);
+
+  printf("Qual a população?: \n");
+  scanf("%d", &populacao2);
+
+  printf("Qual o PIB: \n");
+  scanf("%d", &pib2);
+
+  printf("Quantos pontos turisticos existe?: \n");
+  scanf("%d", &pontos2);
+
+  printf("A aréa é?: \n");
+  scanf("%f", &area2);
+
+  printf("Digite a renda percapita?: \n");
+  scanf("%f", &percapita2);
   
   // printando as informações das cartas
-  printf("\n");
-  printf("A carta escolhida é: \n");
+  printf("\n");printf("A carta escolhida é: \n");
   printf("Carta: %s Código: %s\n", carta, codigo);
   printf("Estado: %s e cidade: %s\n", estado, cidade);
   printf("PIB: %d | População de: %d | Pontos turisticos de: %d\n", pib, populacao, pontos);
