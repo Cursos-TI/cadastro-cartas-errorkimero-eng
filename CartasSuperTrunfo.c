@@ -12,8 +12,8 @@ int main() {
   float area1, densidade1, percapita1, area2, densidade2, percapita2;
 
 
-  printf(" **** SUPER TRUNFO ****");
-  prinff("Digite os dados da 1º carta")
+  printf(" **** SUPER TRUNFO ****\n");
+  printf("Digite os dados da 1º carta");
   printf("Digite o número da sua carta: \n");
   scanf("%s", &carta1);
 
@@ -41,7 +41,7 @@ int main() {
   printf("Digite a renda percapita?: \n");
   scanf("%f", &percapita1);
   
-  prinff("Digite os dados da 2º carta")
+  printf("Digite os dados da 2º carta\n");
   printf("Digite o número da sua carta: \n");
   scanf("%s", &carta2);
 
@@ -71,10 +71,10 @@ int main() {
   
   // printando as informações das cartas
   printf("\n");printf("A carta escolhida é: \n");
-  printf("Carta: %s Código: %s\n", carta, codigo);
-  printf("Estado: %s e cidade: %s\n", estado, cidade);
-  printf("PIB: %d | População de: %d | Pontos turisticos de: %d\n", pib, populacao, pontos);
-  printf("Com a área de %2.f\n", area);
+  printf("Carta: %s Código: %s\n", carta1, codigo1);
+  printf("Estado: %s e cidade: %s\n", estado1, cidade1);
+  printf("PIB: %d | População de: %d | Pontos turisticos de: %d\n", pib1, populacao1, pontos1);
+  printf("Com a área de %2.f\n", area1);
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
   // Área para entrada de dados
